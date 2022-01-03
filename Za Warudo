@@ -22,7 +22,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(Key)
         else
             local ZaWarudo = Instance.new("Sound", workspace)
             local ColorCorrection = Instance.new("ColorCorrectionEffect", game:GetService("Lighting"))
-            ZaWarudo.SoundId = "rbxassetid://274698941" or ZaWarudo.SoundId = "rbxassetid://5688668370"
+            ZaWarudo.SoundId = "rbxassetid://274698941"
             ZaWarudo.Volume = 10
             ZaWarudo.Name = "ZaWarudo"
             ZaWarudo:Play()
